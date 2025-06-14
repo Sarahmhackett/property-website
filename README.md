@@ -23,6 +23,12 @@ It uses:
 - VIDEO DEMO:
 [LoggedInDemo-PropertyWebsite.mov.zip](https://github.com/user-attachments/files/20738384/LoggedInDemo-PropertyWebsite.mov.zip)
 
+- Images:
+
+- ![image](https://github.com/user-attachments/assets/ffd2c4b2-755f-415a-8196-6bfe0b71dfe0)
+- ![image](https://github.com/user-attachments/assets/2c5b9adf-c2a5-4e6c-a973-53ee82a1b6db)
+
+
 
 ## Getting Started
 
