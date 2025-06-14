@@ -20,6 +20,10 @@ It uses:
 
 - React-icons / Tailwind CSS - to make it look nice.
 
+- VIDEO DEMO:
+[LoggedInDemo-PropertyWebsite.mov.zip](https://github.com/user-attachments/files/20738384/LoggedInDemo-PropertyWebsite.mov.zip)
+
+
 ## Getting Started
 
 First, run the development server:
