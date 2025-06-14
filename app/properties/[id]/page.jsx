@@ -6,6 +6,9 @@ import PropertyDetails from "@/app/components/PropertyDetails";
 import PropertyImages from "@/app/components/PropertyImages";
 import { FaArrowLeft } from "react-icons/fa";
 import { convertToSerializableObject } from "@/utils/convertToObject";
+import BookmarkButton from "@/app/components/BookmarkButton";
+import ShareButtons from "@/app/components/ShareButton";
+import ContactForm from "@/app/components/ContactForm";
 
 const PropertyPage = async ({ params }) => {
   const resolvedParams = await params; // <-- await here
@@ -36,8 +39,14 @@ const PropertyPage = async ({ params }) => {
       </section>
       <section className="bg-blue-50">
         <div className="container m-auto py-10 px-6">
-          <div className="grid grid-cols-1 md:grid-cols-70/30 w-full gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-[70%_30%] w-full gap-6">
             <PropertyDetails property={property} />
+
+            <aside className="space-y-4">
+              <BookmarkButton property={property} />
+              <ShareButtons property={property} />
+              <ContactForm property={property} />
+            </aside>
           </div>
         </div>
       </section>
