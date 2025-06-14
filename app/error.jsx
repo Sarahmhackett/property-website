@@ -14,7 +14,7 @@ const errorPage = ({ error }) => {
             </div>
             <div className="text-center">
               <h1 className="text-3xl font-bold mt-4 mb-2">Oops.</h1>
-              <p className="text-gray-500 text-xl mb-10">{error.toString} </p>
+              <p className="text-gray-500 text-xl mb-10">{error.toString()} </p>
               <Link
                 href="/"
                 className="bg-blue-700 hover:bg-blue-800 text-white font-bold py-4 px-6 rounded"
